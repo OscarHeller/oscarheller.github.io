@@ -14,5 +14,3 @@ The EMS transition will be a major project. We've jumped in. Now we have to put 
 There are other problems that no one person can solve, problems we all know too well: mental health, homelessness, drugs. These ripple out and hurt everyone. There are no easy answers. All we can do is continue to pick our way slowly and methodically down the path.
 
 Please reach out to me personally if you'd like to get to know me better. A twenty minute chat over coffee beats a press release any day.
-
-Oscar Heller
