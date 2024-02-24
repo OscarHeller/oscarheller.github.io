@@ -24,6 +24,18 @@ common-js:
 {% include head.html %}
 
 <body>
+  {% if jekyll.environment == "production" %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VGZT3CLD33"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VGZT3CLD33');
+    </script>
+  {% endif %}
+
   {% include gtm_body.html %}
 
   {% include nav.html %}
