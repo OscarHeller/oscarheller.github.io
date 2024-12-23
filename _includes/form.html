@@ -2,12 +2,12 @@
     method="post">
     <fieldset id="fs-frm-inputs">
         <label for="full-name">Your Name</label>
-        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <input type="text" name="name" id="full-name" placeholder="Your name" required="">
         <label for="email-address">Your Email</label>
-        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
         <label for="message">Message</label>
         <textarea rows="5" name="message" id="message"
-            placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+            placeholder="Looking forward to hearing from you!"
             required=""></textarea>
         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
     </fieldset>
@@ -131,5 +131,19 @@
     #fs-frm fieldset.locale input[name="city"],
     #fs-frm fieldset.locale select[name="state"] {
         margin-right: 3%;
+    }
+
+    #fs-frm [type="submit"] {
+        background: #272946;
+        color: white;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: all 100ms;
+        border: none;
+    }
+
+    #fs-frm [type="submit"]:focus, #fs-frm [type="submit"]:hover {
+        background: #EDA031;
     }
 </style>
